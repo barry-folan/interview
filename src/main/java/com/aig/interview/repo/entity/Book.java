@@ -19,6 +19,27 @@ public class Book implements Serializable {
         this.isbn = isbn;
     }
 
+    public String getIsbn() {
+        return isbn;
+    }
+    public void setIsbn(String isbn) {
+        this.isbn = isbn;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getAlias() {
+        return alias;
+    }
+    public void setAlias(String alias) {
+        this.alias = alias;
+    }
+
     @Override
     public int hashCode() {
         final int prime = 31;
